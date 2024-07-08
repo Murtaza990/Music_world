@@ -1,0 +1,482 @@
+/* Yeh cent class ka height 100% set kar raha hai, display ko flex aur flex-wrap ko wrap kar raha hai, margin auto kar raha hai */
+.cent{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+}
+
+/* Yeh testimonial-card class ke liye styling hai */
+.testimonial-card {
+    background: #fff; /* background color white */
+    border: 1px solid #ddd; /* 1px solid border with light grey color */
+    border-radius: 10px; /* rounded corners with 10px radius */
+    box-shadow: 2px 2px 17px white; /* white color ka shadow effect */
+    padding: 0.1em; /* inner padding 0.1em */
+    text-align: center; /* text center align */
+    width: 300px; /* fixed width 300px */
+    height: 375px; /* fixed height 375px */
+    display: flex; /* flex display */
+    flex-direction: column; /* column direction */
+    flex-wrap: wrap; /* wrap elements */
+    justify-content: center; /* center align vertically */
+    align-items: center; /* center align horizontally */
+    flex: 1 1 300px; /* flex-grow, flex-shrink aur flex-basis set kar raha hai */
+    margin: 1em; /* outer margin 1em */
+    position: relative; /* relative positioning */
+}
+
+/* Yeh testimonial-card ke andar img ke liye styling hai */
+.testimonial-card img {
+    border-radius: 50%; /* circular image */
+    width: 80px; /* fixed width 80px */
+    height: 80px; /* fixed height 80px */
+    object-fit: cover; /* cover object fit */
+    margin-bottom: 10px; /* bottom margin 10px */
+}
+
+/* Yeh testimonial-card ke andar h3 ke liye styling hai */
+.testimonial-card h3 {
+    margin: 0; /* no margin */
+    font-size: 18px; /* font size 18px */
+    color: #333; /* dark grey color */
+}
+
+/* Yeh testimonial-card ke andar p ke liye styling hai */
+.testimonial-card p {
+    margin: 5px 0; /* top-bottom margin 5px, left-right margin 0 */
+    font-size: 14px; /* font size 14px */
+    color: #777; /* light grey color */
+}
+
+/* Yeh testimonial-card ke andar .role class ke liye styling hai */
+.testimonial-card .role {
+    font-size: 12px; /* font size 12px */
+    color: #aaa; /* light grey color */
+    margin-bottom: 15px; /* bottom margin 15px */
+}
+
+/* Yeh testimonial-card ke andar .rating class ke liye styling hai */
+.testimonial-card .rating {
+    color: #ffa500; /* orange color */
+}
+
+/* .cent class ko space-between justify-content set kar raha hai */
+.cent {
+    justify-content: space-between;
+}
+
+/* .size class ka font size 2.5rem set kar raha hai aur display inline-block */
+.size {
+    font-size: 2.5rem;
+    display: inline-block;
+    border-radius: 8px; /* rounded corners 8px */
+    padding: 5px; /* inner padding 5px */
+}
+
+/* Body ke liye background color aur text color set kar raha hai */
+body {
+    background-color: #1a1a1a; /* dark background color */
+    color: #ffffff; /* white text color */
+}
+
+/* Navbar brand ke font size aur weight set kar raha hai */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar link ke font size set kar raha hai */
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Primary button ke liye background aur border color set kar raha hai */
+.btn-primary {
+    background-color: #007bff; /* blue background color */
+    border-color: #007bff; /* blue border color */
+}
+
+/* Secondary button ke liye background aur border color set kar raha hai */
+.btn-secondary {
+    background-color: #6c757d; /* grey background color */
+    border-color: #6c757d; /* grey border color */
+}
+
+/* .ize class ka font size 52px important set kar raha hai */
+.ize {
+    font-size: 52px !important;
+}
+
+/* year-img aur best-img ke liye shadow effect */
+.year-img, .best-img {
+    box-shadow: 2px 2px 25px 5px white;
+}
+
+/* new-txt aur best-txt ke liye shadow effect aur background color */
+.new-txt, .best-txt {
+    box-shadow: 2px 2px 25px white;
+    display: inline-block !important;
+    background-color: #007bff; /* blue background color */
+    border-radius: 8px; /* rounded corners 8px */
+    padding: 5px; /* inner padding 5px */
+}
+
+/* Main footer ki height aur background color set kar raha hai */
+.mainFooter {
+    height: 300px;
+    background-color: #454444; /* dark grey background color */
+    padding-top: 20px; /* top padding 20px */
+    margin-top: 10px; /* top margin 10px */
+}
+
+/* .mainFoo class ke andar row aur col ki height set kar raha hai */
+.mainFoo .row .col {
+    height: 250px;
+}
+
+/* .dec class ke liye text-decoration none set kar raha hai */
+.dec {
+    text-decoration: none;
+}
+
+/* .dec class ke hover state me underline aur white color */
+.dec:hover {
+    text-decoration: underline;
+    color: white !important;
+    cursor: pointer;
+}
+
+/* Album CSS ke liye main class */
+.main {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em 0em;
+}
+
+/* .audio class ke liye styling */
+.audio {
+    width: 250px; /* fixed width 250px */
+    height: 375px; /* fixed height 375px */
+    display: flex; /* flex display */
+    flex-direction: column; /* column direction */
+    flex-wrap: wrap; /* wrap elements */
+    justify-content: center; /* center align vertically */
+    align-items: center; /* center align horizontally */
+    padding: 0.1em; /* inner padding 0.1em */
+    background-color: #272727; /* dark grey background color */
+    color: white; /* white text color */
+    box-shadow: 1px 1px 20px 1px black; /* black shadow effect */
+    flex: 1 1 250px; /* flex-grow, flex-shrink aur flex-basis set kar raha hai */
+    margin: 1em; /* outer margin 1em */
+    border-radius: 5px; /* rounded corners 5px */
+    position: relative; /* relative positioning */
+}
+
+/* .audio class ke andar img ke liye styling */
+.audio img {
+    width: 200px; /* fixed width 200px */
+    height: 200px; /* fixed height 200px */
+    margin: 0.5em; /* outer margin 0.5em */
+    border-radius: 8px; /* rounded corners 8px */
+}
+
+/* .audio class ke andar h2 ke liye styling */
+.audio h2 {
+    text-align: center; /* text center align */
+    font-weight: 500; /* font weight 500 */
+    font-size: medium; /* medium font size */
+    margin: 0.5em; /* outer margin 0.5em */
+}
+
+/* .audio class ke andar p ke liye styling */
+.audio p {
+    font-size: small; /* small font size */
+    font-weight: 300; /* font weight 300 */
+    text-align: center; /* text center align */
+    margin: 0.5em; /* outer margin 0.5em */
+}
+
+/* .audio class ke hover state me background color change */
+.audio:hover {
+    cursor: pointer;
+    background-color: #2f2f2f; /* dark grey background color */
+}
+
+/* .span class ke liye styling */
+.span {
+    width: 40px; /* fixed width 40px */
+    height: 40px; /* fixed height 40px */
+    background-color: green; /* green background color */
+    position: absolute; /* absolute positioning */
+    left: 213px; /* 213px from left */
+    top: 213px; /* 213px from top */
+    border-radius: 50%; /* circular shape */
+    justify-content: center; /* center align horizontally */
+    align-items: center; /* center align vertically */
+    font-size: 15px; /* font size 15px */
+    color: #000; /* black text color */
+    display: flex; /* flex display */
+}
+
+/* span element ke hover state me scale effect */
+span:hover {
+    transform: scale(1.1);
+}
+
+/* .songnone class ke liye text-decoration none */
+.songnone {
+    text-decoration: none;
+}
+
+/* Songs Pages CSS start */
+
+/* .border-green class ke liye green border */
+.border-green {
+    border: 7px solid #00a547;
+}
+
+/* .text-green class ke liye green text color */
+.text-green {
+    color: #00a547;
+}
+
+/* .black class ke liye background gradient aur position relative */
+.black {
+    position: relative;
+    background: linear-gradient(0deg, #000, #272727);
+}
+
+/* .black class ke before aur after pseudo-elements ke liye gradient background aur animation */
+.black:before, .black:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, 
+    #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
+
+/* steam animation keyframes */
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* .black class ke after pseudo-element ke liye blur effect */
+.black:after {
+    filter: blur(50px);
+}
+
+/* Songs Pages CSS end */
+
+/* Profile image ke liye styling */
+.profile-img {
+    width: 100%; /* full width */
+    max-width: 300px; /* max width 300px */
+    border-radius: 50%; /* circular shape */
+}
+
+/* Section title ke liye border bottom aur padding */
+.section-title {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* List text ke liye border none */
+.listtxt {
+    border: none;
+}
+
+/* Download button ke liye styling */
+.download {
+    width: 100px; /* fixed width 100px */
+    height: 54px; /* fixed height 54px */
+    background-color: #f1f2f5; /* light grey background color */
+    position: relative; /* relative positioning */
+    left: 265px; /* 265px from left */
+    bottom: 54px; /* 54px from bottom */
+    border-top-right-radius: 50px; /* top right corner radius 50px */
+    border-bottom-right-radius: 50px; /* bottom right corner radius 50px */
+    display: flex; /* flex display */
+    align-items: center; /* center align vertically */
+}
+
+/* Audio element ke liye z-index set kar raha hai */
+audio {
+    z-index: 2;
+}
+
+/* Download icon ke liye styling */
+.fa-download {
+    color: black; /* black color */
+}
+
+/* Download icon ke hover state me cursor pointer */
+.fa-download:hover {
+    cursor: pointer;
+}
+
+/* .down class ke liye background color aur size set kar raha hai */
+.down {
+    background-color: transparent;
+    width: 40px; /* fixed width 40px */
+    height: 40px; /* fixed height 40px */
+    position: relative; /* relative positioning */
+    top: 6px; /* 6px from top */
+    z-index: 2;
+    left: 50px; /* 50px from left */
+    text-align: center; /* text center align */
+}
+
+/* Navbar ke link pe hover effect */
+nav .mota:hover {
+    transform: scale(1.1);
+}
+
+/* Navbar ke link pe transition effect */
+nav .mota {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Responsive styling for screens less than 992px */
+@media screen and (max-width: 992px) {
+    .wallOfEye {
+        margin: auto !important;
+    }
+    .wallOfEyeTxt {
+        text-align: center;
+    }
+    .pl-btn {
+        width: 100%;
+    }
+    .download {
+        background-color: transparent !important;
+    }
+    .fa-download {
+        color: black;
+        visibility: hidden;
+    }
+}
+
+/* Responsive styling for screens less than 1200px */
+@media screen and (max-width: 1200px) {
+    audio {
+        width: 70%;
+    }
+    .download {
+        width: 90px; /* fixed width 90px */
+        height: 54px; /* fixed height 54px */
+        background-color: #f1f2f5; /* light grey background color */
+        position: relative; /* relative positioning */
+        left: 200px; /* 200px from left */
+        bottom: 54px; /* 54px from bottom */
+        border-top-right-radius: 50px; /* top right corner radius 50px */
+        border-bottom-right-radius: 50px; /* bottom right corner radius 50px */
+        display: flex; /* flex display */
+        align-items: center; /* center align vertically */
+        justify-content: left !important;
+    }
+}
+
+/* Responsive styling for screens less than 768px */
+@media screen and (max-width: 768px) {
+    .wallOfEye {
+        margin: auto !important;
+    }
+    .wallOfEyeTxt {
+        text-align: center;
+    }
+    .mainFoo .row {
+        text-align: center !important;
+    }
+    .mainFoo .row .mainCol .head {
+        font-size: 2rem !important;
+    }
+    .mainFooter {
+        background-color: #454444;
+    }
+    .fa-download {
+        color: black;
+    }
+}
+
+/* Responsive styling for screens less than 420px */
+@media screen and (max-width: 420px) {
+    .mainFoo .row {
+        text-align: center !important;
+    }
+    .mainFoo .row .mainCol .head {
+        font-size: 1rem !important;
+    }
+    .mainFooter {
+        background-color: #1a1a1a !important;
+    }
+}
+
+/* Responsive styling for screens greater than 992px */
+@media screen and (min-width: 992px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+    .dropend:hover > .dropdown-menu {
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 0;
+    }
+    .dropdown > .dropdown-menu {
+        display: none;
+    }
+}
+
+/* Responsive styling for screens less than 1000px */
+@media screen and (max-width: 1000px) {
+    .boy {
+        width: 60%;
+        margin: auto;
+    }
+    .fa-download {
+        visibility: hidden;
+    }
+}
+
+/* Responsive styling for screens less than 700px */
+@media screen and (max-width: 700px) {
+    .boy {
+        width: 80%;
+        margin: auto;
+    }
+    .download {
+        background-color: #f1f2f5 !important;
+        position: relative;
+        left: 220px;
+        bottom: 54px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex; /* flex display */
+        align-items: center; /* center align vertically */
+        justify-content: left !important;
+        width: 90px; /* fixed width 90px */
+        height: 54px; /* fixed height 54px */
+    }
+    .fa-download {
+        color: black !important;
+        visibility: visible;
+    }
+}

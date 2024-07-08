@@ -1,0 +1,134 @@
+/* Google font import kiya gaya hai */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Sab elements ka default margin, padding aur box-sizing set kiya */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Font family Poppins use kiya */
+}
+
+/* Body ke liye styling */
+body {
+    display: flex; /* Flex display set kiya */
+    justify-content: center; /* Center horizontally align */
+    align-items: center; /* Center vertically align */
+    min-height: 100vh; /* Minimum height 100 viewport height */
+    background: #000; /* Black background color */
+}
+
+/* Wrapper div ke liye styling */
+.wrapper {
+    position: relative; /* Relative positioning */
+    width: 400px; /* Fixed width 400px */
+    height: 500px; /* Fixed height 500px */
+    background: #000; /* Black background color */
+    box-shadow: 0 0 50px #0ef; /* Box shadow with cyan color */
+    border-radius: 20px; /* Border radius 20px */
+    padding: 40px; /* Padding 40px */
+    overflow: hidden; /* Overflow hidden */
+}
+
+/* Wrapper hover effect */
+.wrapper:hover {
+    animation: animate 1s linear infinite; /* Animation apply kiya hover pe */
+}
+
+/* Animation keyframes define kiya */
+@keyframes animate {
+    100% {
+      filter: hue-rotate(360deg); /* 360 degree hue rotation */
+    }
+}
+
+/* Form wrapper ke liye styling */
+.form-wrapper {
+    display: flex; /* Flex display set kiya */
+    justify-content: center; /* Center horizontally align */
+    align-items: center; /* Center vertically align */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    transition: 1s ease-in-out; /* Transition effect 1 second */
+}
+
+/* Active wrapper ke liye styling */
+.wrapper.active .form-wrapper.login-page {
+    transform: translateY(-450px); /* Translate Y axis -450px */
+}
+
+/* Heading ke liye styling */
+h2 {
+    font-size: 30px; /* Font size 30px */
+    color: #fff; /* White color */
+    text-align: center; /* Center text align */
+}
+
+/* Input group ke liye styling */
+.input-group {
+    position: relative; /* Relative positioning */
+    margin: 30px 0; /* Margin top and bottom 30px */
+    border-bottom: 2px solid #fff; /* Bottom border white */
+}
+
+/* Input label ke liye styling */
+.input-group label {
+    position: absolute; /* Absolute positioning */
+    top: 50%; /* 50% from top */
+    left: 5px; /* 5px from left */
+    transform: translateY(-50%); /* Center vertically */
+    font-size: 16px; /* Font size 16px */
+    color: #fff; /* White color */
+    pointer-events: none; /* Pointer events none */
+    transition: .5s; /* Transition effect 0.5 seconds */
+}
+
+/* Input field ke liye styling */
+.input-group input {
+    width: 320px; /* Fixed width 320px */
+    height: 40px; /* Fixed height 40px */
+    font-size: 16px; /* Font size 16px */
+    color: #fff; /* White color */
+    padding: 0 5px; /* Padding left and right 5px */
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    outline: none; /* No outline */
+}
+
+/* Focused or valid input label ke liye styling */
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -5px; /* Move label to top */
+}
+
+/* Remember checkbox ke liye styling */
+.remember {
+    margin: -5px 0 15px 5px; /* Negative margin top, margin bottom 15px, margin left 5px */
+}
+
+/* Remember label ke liye styling */
+.remember label {
+    color: #fff; /* White color */
+    font-size: 14px; /* Font size 14px */
+}
+
+/* Remember checkbox input ke liye styling */
+.remember label input {
+    accent-color: #0ef; /* Cyan accent color */
+}
+
+/* Submit button ke liye styling */
+.submit {
+    position: relative; /* Relative positioning */
+    width: 100%; /* Full width */
+    height: 40px; /* Fixed height 40px */
+    background: #0ef; /* Cyan background color */
+    box-shadow: 0 0 10px #0ef; /* Box shadow with cyan color */
+    font-size: 16px; /* Font size 16px */
+    color: #000; /* Black color */
+    font-weight: 500; /* Font weight 500 */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 30px; /* Border radius 30px */
+    border: none; /* No border */
+    outline: none; /* No outline */
+}

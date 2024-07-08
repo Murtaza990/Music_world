@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- My Css -->
+    <link rel="stylesheet" href="form.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-wrapper login-page">
+          <form id="form1">
+            <h2>Login</h2>
+            <div class="input-group">
+              <input type="email" name="mymail" required>
+              <label for="">Email</label>
+            </div>
+            <div class="input-group">
+              <input type="password" required>
+              <label for="">Password</label>
+            </div>
+            <div class="remember">
+              <label><input type="checkbox" required> Remember me</label>
+            </div>
+            <input type="submit" value="Submit" class="submit">
+          </form>
+        </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="jquery-validation-1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
